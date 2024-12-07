@@ -14,7 +14,6 @@ for report in reports:
     ptr1 = 0
     ptr2 = 1
     while ptr2 < len(levels):
-        
         diff = levels[ptr1] - levels[ptr2]
 
         # check if same direction and correct diff
